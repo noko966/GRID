@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.root {
+  display: grid;
+  background-color: #6a5acd;
+  height: 100vh;
+  grid-gap: 10px;
+  grid-template-columns: 200px 1fr 260px;
+  grid-template-rows: 100px 1fr 100px;
+}
+
+.header {
+  background-color: #cd5abd;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+.sidebar {
+  background-color: #cd6a5a;
+}
+.main {
+  background-color: #bdcd5a;
+}
+.aside {
+  background-color: #5acd69;
+}
+.footer {
+  background-color: #5abccd;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
